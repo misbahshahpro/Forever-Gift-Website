@@ -1,3 +1,4 @@
 User-agent: *
-
 Allow: /
+
+Sitemap: https://forever-personalized-gifts.netlify.app/sitemap.xml
