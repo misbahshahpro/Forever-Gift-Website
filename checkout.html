@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Checkout | Forever Gifts</title>
+
+<meta name="description" content="Complete your order securely and enjoy fast delivery of personalized gifts from Forever Gifts.">
+
+<meta name="robots" content="index, follow">
+
+<link rel="stylesheet" href="style.css">
+
+
+<!-- EmailJS -->
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+(function () {
+    emailjs.init({
+        publicKey: "D783POETU_xU_oNeG"
+    });
+})();
+</script>
+
+
+
+</head>
+
+
+
+<body>
+
+
+
+
+<!-- NAVBAR -->
+
+
+<header>
+
+
+<nav class="navbar">
+
+
+
+<div class="logo">
+
+<a href="index.html">
+Forever 🎁
+</a>
+
+</div>
+
+
+
+
+<div class="menu-toggle">
+☰
+</div>
+
+
+
+
+
+<ul class="nav-links">
+
+
+<li>
+<a href="index.html">
+Home
+</a>
+</li>
+
+
+<li>
+<a href="shop.html">
+Shop
+</a>
+</li>
+
+
+<li>
+<a href="custamize.html">
+Customize
+</a>
+</li>
+
+
+<li>
+<a href="contact.html">
+Contact
+</a>
+</li>
+
+
+<li>
+<a href="about.html">
+About
+</a>
+</li>
+
+
+<li>
+<a href="cart.html">
+🛒 Cart
+<span id="cart-count">0</span>
+</a>
+</li>
+
+<li>
+<a href="wishlist.html">
+❤️ Wishlist
+</a>
+</li>
+
+
+</ul>
+
+
+
+</nav>
+
+
+</header>
+
+
+
+
+
+
+
+
+
+<!-- CHECKOUT SECTION -->
+
+
+<section class="checkout-page">
+
+
+
+<div class="checkout-box">
+
+
+
+<h1>
+Complete Your Order 🎁
+</h1>
+
+<div class="checkout-summary">
+
+<h2>
+Your Selected Gift 🎁
+</h2>
+
+
+<div id="checkout-product">
+
+</div>
+
+
+<h3>
+Total Amount:
+₹<span id="checkout-total">0</span>
+</h3>
+
+
+</div>
+
+
+
+
+
+<form id="checkout-form">
+
+
+
+<input
+type="text"
+id="name"
+name="name"
+placeholder="Your Full Name"
+required>
+
+
+
+
+
+<input
+type="email"
+id="email"
+name="email"
+placeholder="Your Email"
+required>
+
+
+
+
+
+<input
+type="tel"
+id="phone"
+name="phone"
+placeholder="Phone Number"
+required>
+
+
+
+
+
+
+
+<textarea
+id="address"
+name="address"
+placeholder="Full Address"
+required></textarea>
+
+
+
+
+
+
+
+<div class="order-summary">
+
+
+<h2>
+Order Summary
+</h2>
+
+
+<p>
+Total Amount:
+₹<span id="checkout-total">0</span>
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+<button type="submit">
+
+Place Order 🎁
+
+</button>
+
+
+
+
+
+</form>
+
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- FOOTER -->
+
+
+<footer>
+
+
+<h2>
+Forever Moment 🎁
+</h2>
+
+
+<p>
+Personalized Gifts Made With Love ❤️
+</p>
+
+
+</footer>
+
+
+
+
+
+
+<script src="script.js"></script>
+
+
+
+</body>
+
+
+</html>

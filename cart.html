@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Your Cart | Forever Gifts</title>
+
+<meta name="description" content="Review your selected personalized gifts and proceed to secure checkout at Forever Gifts.">
+
+<meta name="robots" content="index, follow">
+
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+(function () {
+    emailjs.init({
+        publicKey: "D783POETU_xU_oNeG"
+    });
+})();
+</script>
+
+</head>
+
+
+<body>
+
+
+<!-- NAVBAR -->
+
+<header>
+
+<nav class="navbar">
+
+
+<div class="logo">
+
+<a href="index.html">
+Forever 🎁
+</a>
+
+</div>
+
+
+
+<div class="menu-toggle">
+☰
+</div>
+
+
+
+
+<ul class="nav-links">
+
+
+<li>
+<a href="index.html">
+Home
+</a>
+</li>
+
+
+<li>
+<a href="shop.html">
+Shop
+</a>
+</li>
+
+
+<li>
+<a href="custamize.html">
+Customize
+</a>
+</li>
+
+
+<li>
+<a href="contact.html">
+Contact
+</a>
+</li>
+
+
+<li>
+<a href="about.html">
+About
+</a>
+</li>
+
+
+<li>
+<a href="cart.html">
+🛒 Cart
+<span id="cart-count">0</span>
+</a>
+</li>
+
+<li>
+<a href="wishlist.html">
+❤️ Wishlist
+</a>
+</li>
+
+
+</ul>
+
+
+
+</nav>
+
+</header>
+
+
+
+
+
+
+
+
+<!-- CART SECTION -->
+
+
+<section class="cart-page">
+
+
+<h1>
+Your Shopping Cart 🛒
+</h1>
+
+
+
+<div id="cart-container">
+
+
+
+</div>
+
+
+
+
+
+
+<div class="cart-summary">
+
+
+<h2>
+Order Summary
+</h2>
+
+
+<h3>
+Total:
+₹<span id="cart-total">0</span>
+</h3>
+
+
+<!-- COUPON BOX -->
+
+<div class="coupon-box">
+
+
+<h3>
+🎁 Apply Coupon
+</h3>
+
+
+<input 
+type="text" 
+id="coupon-code" 
+placeholder="Enter Coupon Code">
+
+
+<button id="apply-coupon">
+Apply
+</button>
+
+
+<p id="coupon-message"></p>
+
+
+</div>
+
+
+
+<h3>
+Delivery:
+₹<span id="delivery-charge">0</span>
+</h3>
+
+
+<h3>
+Discount:
+₹<span id="discount-amount">0</span>
+</h3>
+
+
+<h3>
+Final Total:
+₹<span id="final-total">0</span>
+</h3>
+
+
+
+<button class="checkout-btn">
+Proceed To Checkout
+</button>
+
+
+
+</div>
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- FOOTER -->
+
+
+<footer>
+
+
+<h2>
+Forever 🎁
+</h2>
+
+
+<p>
+Gifts Made With Love ❤️
+</p>
+
+
+</footer>
+
+
+
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+
+</html>
